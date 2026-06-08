@@ -1,3 +1,6 @@
+# This code uses Multi-Threaded Executor (MTE) and a dedicated worker thread to process frames as soon as they arrive, maximizing throughput and minimizing latency. 
+# It also includes robust shutdown handling to ensure clean exit without hanging threads.
+
 import time
 import threading
 import cv2
